@@ -10,6 +10,42 @@ TAIRA is a Python-based **Intelligent Agent** system designed for CEN 352 that a
 
 ---
 
+## Application Preview
+
+Explore TAIRA's Streamlit interface through the screenshots below. Click an image to view it at full size.
+
+### Home Dashboard
+
+The landing page introduces the hybrid intelligent agent, displays the saved model's evaluation metrics, and provides navigation to the assessment and analysis tools.
+
+![TAIRA home dashboard showing the project overview, model metrics, and navigation](docs/screenshots/home-dashboard.png)
+
+### Crash Scenario Assessment
+
+Select traffic, weather, lighting, and road conditions to receive an injury prediction, a risk level, and an explanation. This example shows a **CRITICAL** risk alert for dangerous conditions alongside the SVM's injury prediction.
+
+![TAIRA crash scenario assessment showing selected conditions, an injury prediction, and a critical risk alert](docs/screenshots/crash-scenario-assessment.png)
+
+### Post-Crash Analysis
+
+Filter historical crashes by primary contributory cause and crash type to explore matching records, injury severity distributions, common conditions, and injury totals.
+
+![TAIRA post-crash analysis showing matching records, injury distributions, and an injury impact summary](docs/screenshots/post-crash-analysis.png)
+
+### Crash Patterns & Story
+
+Explore the **209,306 crash records** through summary statistics and charts showing patterns by month, hour, day of the week, and environmental conditions.
+
+![TAIRA crash patterns dashboard showing summary statistics and time-based crash charts](docs/screenshots/crash-patterns-dashboard.png)
+
+### About TAIRA
+
+Review the project overview, PEAS framework, hybrid AI architecture, model evaluation, and ethical considerations.
+
+![About TAIRA page showing the PEAS framework, hybrid AI architecture, model metrics, and ethical reflection](docs/screenshots/about-taira.png)
+
+---
+
 ## Project Description
 
 TAIRA implements a **hybrid AI architecture** combining two complementary artificial intelligence techniques:
@@ -211,6 +247,8 @@ python -m streamlit run src/app.py
 traffic_ai_project/
 ├── data/
 │   └── traffic_accidents.csv    # Traffic Accidents dataset (Kaggle)
+├── docs/
+│   └── screenshots/             # Application screenshots displayed in this README
 ├── src/
 │   ├── app.py                   # Main Streamlit application
 │   ├── agent.py                 # TrafficAccidentAgent (integrates ML + logic)
@@ -342,7 +380,4 @@ For questions or feedback regarding this project, please contact the project tea
 
 ---
 
-*Last Updated: January 2026*
-=======
-# TAIRA-hyperagent
->>>>>>> bf10a459d6359f0ceaefed96f7b7b80d1de3d7c5
+*Last Updated: October 2026*
