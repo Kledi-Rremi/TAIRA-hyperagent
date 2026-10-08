@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # TAIRA (Traffic Accident Intelligent Risk Advisor)
 
 ## Overview
