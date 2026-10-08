@@ -1,0 +1,14 @@
+2026-01-14 13:15:24 - taira.data - INFO - Loading data from C:\Users\User\Desktop\traffic_ai_project\traffic_ai_project\data\traffic_accidents.csv
+2026-01-14 13:15:24 - taira.data - INFO - Loaded 209306 records with 24 columns
+2026-01-14 13:15:24 - taira.data - INFO - Starting data cleaning: 209306 records
+2026-01-14 13:15:25 - taira.data - INFO - Data cleaning complete: 165977 records retained (43329 removed, 79.3% retention rate)
+2026-01-14 13:15:25 - taira.app - INFO - Loading existing model from disk...
+2026-01-14 13:15:25 - taira.model - INFO - Model loaded from C:\Users\User\Desktop\traffic_ai_project\traffic_ai_project\models\svm_model.pkl (version 1.0.0)
+2026-01-14 13:15:25 - taira.agent - INFO - TrafficAccidentAgent initialized
+2026-01-14 13:15:25 - taira.app - INFO - Model loaded successfully: Accuracy=0.7487
+2026-01-14 13:15:48 - taira.agent - INFO - Prediction: {'timestamp': '2026-01-14T13:15:48.766129', 'prediction': 'NO INDICATION OF INJURY', 'risk_level': 'LOW', 'features': {'traffic_control_device': 'TRAFFIC SIGNAL', 'weather_condition': 'CLEAR', 'lighting_condition': 'DAYLIGHT', 'roadway_surface_cond': 'DRY', 'trafficway_type': 'ALLEY', 'alignment': 'CURVE ON GRADE', 'road_defect': 'DEBRIS ON ROADWAY', 'intersection_related_i': 'N', 'prim_contributory_cause': 'UNABLE TO DETERMINE', 'crash_type': 'NO INDICATION'}}
+2026-01-14 13:15:48 - taira.agent - INFO - Prediction completed: NO INDICATION OF INJURY -> LOW
+2026-01-14 13:21:57 - taira.agent - INFO - Prediction: {'timestamp': '2026-01-14T13:21:57.361728', 'prediction': 'NO INDICATION OF INJURY', 'risk_level': 'LOW', 'features': {'traffic_control_device': 'TRAFFIC SIGNAL', 'weather_condition': 'CLEAR', 'lighting_condition': 'DAYLIGHT', 'roadway_surface_cond': 'DRY', 'trafficway_type': 'ALLEY', 'alignment': 'CURVE ON GRADE', 'road_defect': 'DEBRIS ON ROADWAY', 'intersection_related_i': 'Y', 'prim_contributory_cause': 'UNABLE TO DETERMINE', 'crash_type': 'NO INDICATION'}}
+2026-01-14 13:21:57 - taira.agent - INFO - Prediction completed: NO INDICATION OF INJURY -> LOW
+2026-01-14 13:23:43 - taira.agent - INFO - Prediction: {'timestamp': '2026-01-14T13:23:43.692446', 'prediction': 'NO INDICATION OF INJURY', 'risk_level': 'LOW', 'features': {'traffic_control_device': 'TRAFFIC SIGNAL', 'weather_condition': 'CLEAR', 'lighting_condition': 'DAYLIGHT', 'roadway_surface_cond': 'DRY', 'trafficway_type': 'ALLEY', 'alignment': 'CURVE ON GRADE', 'road_defect': 'DEBRIS ON ROADWAY', 'intersection_related_i': 'Y', 'prim_contributory_cause': 'UNABLE TO DETERMINE', 'crash_type': 'NO INDICATION'}}
+2026-01-14 13:23:43 - taira.agent - INFO - Prediction completed: NO INDICATION OF INJURY -> LOW
