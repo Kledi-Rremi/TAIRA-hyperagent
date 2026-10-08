@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TAIRA (Traffic Accident Intelligent Risk Advisor)
 
 ## Overview
@@ -342,3 +343,6 @@ For questions or feedback regarding this project, please contact the project tea
 ---
 
 *Last Updated: January 2026*
+=======
+# TAIRA-hyperagent
+>>>>>>> bf10a459d6359f0ceaefed96f7b7b80d1de3d7c5
